@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 // Fungsi ini memberitahu Next.js halaman mana saja yang harus di-generate saat build
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return portfolioData.map((project) => ({
     slug: project.slug,
   }));
