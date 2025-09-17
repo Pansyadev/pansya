@@ -16,7 +16,7 @@ export type Project = {
 // Kita memberitahu TypeScript bahwa 'portfolioData' adalah sebuah array dari objek 'Project'
 export const portfolioData: Project[] = [
   {
-    slug: 'otomatisasi-laporan-penjualan-harian',
+    slug: 'otomatisasilaporan-penjualanharian',
     title: 'Otomatisasi Laporan Penjualan Harian',
     description: 'Sebuah workflow yang menarik data dari beberapa Google Sheets...',
     imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e28f81?q=80&w=1170',
@@ -26,7 +26,7 @@ export const portfolioData: Project[] = [
     outcome: 'Proses yang tadinya memakan waktu 1 jam lebih kini sepenuhnya otomatis...',
   },
   {
-    slug: 'sinkronisasi-data-pelanggan-crm',
+    slug: 'sinkronisasidatapelanggancrm',
     title: 'Sinkronisasi Data Pelanggan CRM',
     description: 'Workflow untuk menyamakan data pelanggan baru antara HubSpot...',
     imageUrl: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1170',
@@ -34,5 +34,35 @@ export const portfolioData: Project[] = [
     challenge: 'Data pelanggan yang tidak sinkron antara HubSpot dan sistem internal...',
     solution: 'Menggunakan webhook di n8n, setiap kali ada pelanggan baru dibuat...',
     outcome: 'Semua tim kini memiliki akses ke data pelanggan yang up-to-date...',
+  },
+];
+
+//... (di bawah type Project dan portfolioData)
+
+export type Workflow = {
+  title: string;
+  description: string;
+  price: string;
+  buyUrl: string; // Tautan ke Gumroad, Lemon Squeezy, dll.
+};
+
+export const workflowData: Workflow[] = [
+  {
+    title: 'Template Laporan Penjualan Harian',
+    description: 'Workflow siap pakai untuk menarik data penjualan dari Google Sheets dan mengirim laporan otomatis ke Slack.',
+    price: '$49',
+    buyUrl: '#',
+  },
+  {
+    title: 'Sinkronisasi Kontak Mailchimp & CRM',
+    description: 'Jaga data kontak Anda tetap sinkron antara Mailchimp dan CRM Anda (misal: HubSpot) secara otomatis.',
+    price: '$59',
+    buyUrl: '#',
+  },
+  {
+    title: 'Bot Notifikasi Stok Produk',
+    description: 'Workflow untuk memonitor stok produk di platform e-commerce Anda dan mengirim notifikasi jika stok menipis.',
+    price: '$39',
+    buyUrl: '#',
   },
 ];
