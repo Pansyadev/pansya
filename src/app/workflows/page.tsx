@@ -15,6 +15,7 @@ const WorkflowsPage = () => {
           {workflowData.map((workflow) => (
             <WorkflowCard
               key={workflow.title}
+              imageUrl={workflow.imageUrl}
               title={workflow.title}
               description={workflow.description}
               price={workflow.price}

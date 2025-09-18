@@ -8,22 +8,22 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+    <header className="bg-white backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
-          N8N Pro Dev
+          Pansya
         </Link>
         
         {/* Menu untuk Desktop */}
         <div className="hidden lg:flex lg:gap-x-12">
-          <Link href="/workflows" className="text-sm font-semibold leading-6 text-slate-700 hover:text-slate-900">
+          <Link href="/workflows" className="text-sm font-semibold leading-6 text-slate-700 hover:text-teal-600 ">
             Workflows
           </Link>
-          <Link href="/portofolio" className="text-sm font-semibold leading-6 text-slate-700 hover:text-slate-900">
+          <Link href="/portofolio" className="text-sm font-semibold leading-6 text-slate-700 hover:text-teal-600 ">
             Portofolio
           </Link>
-          <Link href="/tentang" className="text-sm font-semibold leading-6 text-slate-700 hover:text-slate-900">
+          <Link href="/tentang" className="text-sm font-semibold leading-6 text-slate-700 hover:text-teal-600 ">
             Tentang
           </Link>
         </div>
@@ -53,10 +53,10 @@ const Navbar = () => {
       {/* LANGKAH 5: TAMPILKAN MENU MOBILE JIKA STATE isMenuOpen == true */}
       <div className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden`}>
         <div className="space-y-1 px-2 pb-3 pt-2">
-          <Link href="/workflows" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-slate-50">Workflows</Link>
-          <Link href="/portofolio" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-slate-50">Portofolio</Link>
-          <Link href="/tentang" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-slate-50">Tentang</Link>
-          <Link href="/kontak" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-slate-50">Hubungi Saya</Link>
+          <Link href="/workflows" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-teal-100">Workflows</Link>
+          <Link href="/portofolio" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-teal-100">Portofolio</Link>
+          <Link href="/tentang" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-teal-100">Tentang</Link>
+          <Link href="/kontak" className="block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-slate-900 hover:bg-teal-100">Hubungi Saya</Link>
         </div>
       </div>
     </header>
