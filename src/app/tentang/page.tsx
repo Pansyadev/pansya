@@ -19,7 +19,7 @@ const AboutPage = () => {
             {/* Kolom Gambar */}
             <div className="relative h-96">
               <Image
-                src="https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=1171"
+                src="/profil1.webp"
                 alt="Foto profil profesional"
                 fill
                 className="object-cover rounded-2xl shadow-lg"
@@ -29,7 +29,7 @@ const AboutPage = () => {
             {/* Kolom Teks */}
             <div className="text-lg leading-7 text-slate-700">
               <p>
-                Halo! Saya [Nama Anda], seorang developer n8n profesional dengan hasrat untuk memecahkan masalah kompleks melalui automasi yang cerdas. Perjalanan saya di dunia teknologi dimulai dari [sebutkan latar belakang singkat Anda, misal: ketertarikan pada efisiensi proses bisnis].
+                Halo! Saya Pande  I Gede Sandiyasa , seorang developer n8n profesional dengan hasrat untuk memecahkan masalah kompleks melalui automasi yang cerdas. Perjalanan saya di dunia teknologi dimulai dari [sebutkan latar belakang singkat Anda, misal: ketertarikan pada efisiensi proses bisnis].
               </p>
               <p className="mt-6">
                 Saya menemukan n8n dan langsung jatuh cinta pada kemampuannya untuk menghubungkan berbagai aplikasi dan layanan tanpa batas. Bagi saya, setiap workflow adalah sebuah puzzle yang menantang untuk dipecahkan, dan kepuasan terbesar saya adalah melihat solusi yang saya bangun berhasil menghemat puluhan jam kerja manual untuk klien saya.
