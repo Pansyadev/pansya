@@ -16,7 +16,7 @@ const toolIcons = [
 const CTASection = () => {
   return (
     <section className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-x-16 gap-y-16 lg:grid-cols-2">
           {/* Kolom Teks */}
           <div>

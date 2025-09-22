@@ -35,6 +35,26 @@ export const portfolioData: Project[] = [
     solution: 'Menggunakan webhook di n8n, setiap kali ada pelanggan baru dibuat...',
     outcome: 'Semua tim kini memiliki akses ke data pelanggan yang up-to-date...',
   },
+  {
+    slug: 'otomatisasilaporan-penjualanharian',
+    title: 'Otomatisasi Laporan Penjualan Harian',
+    description: 'Sebuah workflow yang menarik data dari beberapa Google Sheets...',
+    imageUrl: '/workflow1.webp',
+    tags: ['Google Sheets', 'Slack', 'Data Processing'],
+    challenge: 'Klien menghabiskan lebih dari 1 jam setiap pagi secara manual...',
+    solution: 'Saya merancang dan membangun sebuah workflow n8n yang berjalan...',
+    outcome: 'Proses yang tadinya memakan waktu 1 jam lebih kini sepenuhnya otomatis...',
+  },
+  {
+    slug: 'sinkronisasidatapelanggancrm',
+    title: 'Sinkronisasi Data Pelanggan CRM',
+    description: 'Workflow untuk menyamakan data pelanggan baru antara HubSpot...',
+    imageUrl: 'https://images.unsplash.com/photo-1556740738-b6a63e27c4df?q=80&w=1170',
+    tags: ['HubSpot', 'API', 'CRM'],
+    challenge: 'Data pelanggan yang tidak sinkron antara HubSpot dan sistem internal...',
+    solution: 'Menggunakan webhook di n8n, setiap kali ada pelanggan baru dibuat...',
+    outcome: 'Semua tim kini memiliki akses ke data pelanggan yang up-to-date...',
+  },
 ];
 
 //... (di bawah type Project dan portfolioData)

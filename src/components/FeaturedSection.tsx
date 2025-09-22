@@ -31,7 +31,7 @@ const featureList = [
 
 const FeaturedSection = () => {
   return (
-    <div className="bg-slate-50 py-24 sm:py-32">
+    <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
           <p className="text-base font-semibold leading-7 text-teal-600">Layanan Unggulan</p>
